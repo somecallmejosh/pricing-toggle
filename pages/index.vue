@@ -4,7 +4,7 @@
 
     <div class="plan-selector">
       <span @click="toggleBilling()" role="button" aria-hidden="true">Monthly</span>
-      <button role="switch" @click="toggleBilling()" :class="{active : !showMonthlyBilling}">
+      <button type="button" role="switch" :aria-checked="showMonthlyBilling" @click="toggleBilling()" :class="{active : !showMonthlyBilling}">
         <span class="toggle" aria-hidden="true"></span>
         <span class="visually-hidden">Monthly</span>
         <span class="visually-hidden">Annually</span>
