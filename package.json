@@ -1,0 +1,19 @@
+{
+  "name": "pricing",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Pricing App",
+  "author": "Joshua Briley",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nuxt-webfontloader": "^1.1.0"
+  }
+}

@@ -1,0 +1,30 @@
+html {
+  font-family: 'Montserrat', sans-serif,
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f2f2fc;
+  background-image: url(/images/bg-top.svg), url(/images/bg-bottom.svg);
+  background-position: 300% top, bottom left;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 375px 658px, 0px 0px;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@media (min-width: 1024px) {
+  html {
+    background-size: 375px 658px , 353px 304px;
+    background-position: right top, bottom left;
+  }
+}
